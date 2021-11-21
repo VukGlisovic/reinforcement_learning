@@ -2,6 +2,8 @@
 
 
 ## Installation
+
+#### Installation using environment.yaml
 Install the python environment by executing the following command:
 ```bash
 conda env install -f environment.yaml
@@ -9,6 +11,14 @@ conda env install -f environment.yaml
 For visualizations, don't forget to install the following:
 ```bash
 sudo apt-get install freeglut3-dev
+```
+
+#### Installation using requirements.txt
+Execute the following commands:
+```bash
+conda create -n rl python=3.7
+conda activate rl
+pip install -r requirements.txt
 ```
 
 
